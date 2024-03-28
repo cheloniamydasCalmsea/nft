@@ -8,7 +8,7 @@ contract PlanetNFT is ERC721, Ownable{
     using Strings for uint256;
     uint256 MAX_SUPPLY;
     uint256 totalSupply;
-    bool isSalesActive;
+    bool public isSalesActive;
     string baseURI;
 
     mapping(uint256 => uint256) tokenMetadataNo;
@@ -57,6 +57,10 @@ contract PlanetNFT is ERC721, Ownable{
 
     function withDraw() external onlyOwner{
         payable(msg.sender).transfer(address(this).balance);
+    }
+
+    function helloworld() external pure returns (string memory){
+        return "hello";
     }
 
 }
