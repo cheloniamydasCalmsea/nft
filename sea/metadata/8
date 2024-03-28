@@ -1,9 +1,0 @@
-{
-    "image " : "http://space.coinyou.io/space/8.png",
-    "attributes": [
-        {
-            "trait_type": "planet"
-            ,"value": "space #8"
-        }
-    ]
-}

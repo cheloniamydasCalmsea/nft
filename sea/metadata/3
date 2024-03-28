@@ -1,9 +1,11 @@
 {
-    "image " : "http://space.coinyou.io/space/3.png",
+    "name":"planet_3",
+    "description":"welcome to planet",
     "attributes": [
         {
-            "trait_type": "planet"
-            ,"value": "space #3"
+            "trait_type":"level",
+            "value":"gold"
         }
     ]
+    "image" : "ipfs://QmUHgiCDnXyynqgeA9jvC1G5xrBdkw74YiyC5ak4UxpEtZ",
 }

@@ -1,9 +1,11 @@
 {
-    "image " : "http://space.coinyou.io/space/2.png",
+    "name":"planet_2",
+    "description":"welcome to planet",
     "attributes": [
         {
-            "trait_type": "planet"
-            ,"value": "space #2"
+            "trait_type":"level",
+            "value":"silver"
         }
     ]
+    "image" : "ipfs://QmU5efvmV3qZAmZhteGxsD3EjgJwY4ofzvpfLRdftnrg2R",
 }

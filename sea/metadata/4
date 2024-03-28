@@ -1,9 +1,11 @@
 {
-    "image " : "http://space.coinyou.io/space/4.png",
+    "name":"planet_4",
+    "description":"welcome to planet",
     "attributes": [
         {
-            "trait_type": "planet"
-            ,"value": "space #4"
+            "trait_type":"level",
+            "value":"diamond"
         }
     ]
+    "image" : "ipfs://QmU4B4DQwmDgGXy8CYguuhLgpgPAT3gEvCQQEaYVNQigGo",
 }
